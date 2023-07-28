@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <title>Animedoro</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7FLR9LSTH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-J7FLR9LSTH');
+    </script>
+    <!-- adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3788610015085633"
+     crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>AnimeDoro</h1>
+            <p>Anime meets pomodoro</p>
+        </header>
+        <nav class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" </a>
+                &#8801;</a>
+            <a href="./index.html">
+                <button class="button-black" type="button" onclick="">
+                    <h2>HOME</h2>
+                </button>
+            </a>
+            <a href="./doro/doro.html">
+                <button class="button-black" type="button" onclick="">
+                    <h2>TIMER</h2>
+                </button>
+            </a>
+            <a href="https://github.com/among1anonymous/animedoro-timer" style="position: absolute; left:10px; bottom: 10%;"
+                target="_blank">
+                <button class="button-black" type="button" onclick="">
+                    <p style="font-size: 15px;">GITHUB REPO</p>
+                </button>
+            </a>
+            <a href="https://among1anonymous.github.io/" style="position: absolute; left:10px; top:90%;">
+                <button class="button-black" type="button" onclick="">
+                    <p style="font-size: 15px;">AMONG1ANONYMOUS.GITHUB.IO</p>
+                </button>
+            </a>
+        </nav>
+        <br>
+        <button class="openbtn" onclick="openNav()" style="position: fixed;top: 0;left: 0;">&gt;</button>
+        <main>
+            <h1>What is AnimeDoro?</h1>
+            <h2>
+                It's like pomodoro, but with Anime <br>
+                Instead of regular 25+5 pomodoro technique, <br>
+                you work at your own pace for 40 to 60 minutes <br>
+                then watch an episode of anime for 20 minutes <br>
+                and continue the cycle. <br>
+                You can also change time limits if you want<br>
+                For more info watch this video by <a
+                    href="https://www.youtube.com/channel/UCo9QYIyEXUWB5-J_Q9waBYg">Josh
+                    Chen</a>
+            </h2>
+
+            <br>
+            <div>
+                <iframe src="https://www.youtube-nocookie.com/embed/bUjGZJIgse0"
+                    style="height:450px;width:60%;border:none;overflow:hidden;"
+                    onload="javascript:'alert(0);'"></iframe>
+            </div>
+
+            <br>
+            <a href="./doro/doro.html">
+                <button class="button-black" type="button" onclick="">
+                    <h2 class="btn">START ANIMEDORO</h2>
+                </button>
+            </a>
+            <br>
+            <br>
+        </main>
+
+
+        <br>
+    </center>
+    <script src="./sidebar.js"></script>
+</body>
+
+</html>
